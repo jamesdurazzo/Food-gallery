@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Gallery</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery a img {
+            height: 200px;
+            border-radius: 8px;
+            border: 2px solid #ccc;
+            transition: transform 0.2s;
+        }
+        .gallery a img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>James Durazzo Food Gallery</h1>
+    <div class="gallery">
+        <a href="001.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="001.jpg" alt="Food Photo"></a>
+        <a href="002.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="002.jpg" alt="Food Photo"></a>
+        <a href="003.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="003.jpg" alt="Food Photo"></a>
+        <a href="004.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="004.jpg" alt="Food Photo"></a>
+        <a href="005.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="005.jpg" alt="Food Photo"></a>
+        <a href="006.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="006.jpg" alt="Food Photo"></a>
+        <a href="007.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="007.jpg" alt="Food Photo"></a>
+        <a href="008.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="008.jpg" alt="Food Photo"></a>
+        <a href="009.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="009.jpg" alt="Food Photo"></a>
+        <a href="010.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="010.jpg" alt="Food Photo"></a>
+        <a href="011.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="011.jpg" alt="Food Photo"></a>
+        <a href="012.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="012.jpg" alt="Food Photo"></a>
+        <a href="013.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="013.jpg" alt="Food Photo"></a>
+        <a href="014.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="014.jpg" alt="Food Photo"></a>
+        <a href="015.jpg" data-lightbox="food-gallery" data-title="Food Photo"><img src="015.jpg" alt="Food Photo"></a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
